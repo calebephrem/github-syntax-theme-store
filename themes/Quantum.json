@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/calebephrem/github-syntax-theme-store/refs/heads/main/schema.json",
+  "name": "Quantum",
+  "description": "Deep navy dark theme with vibrant cyan-blue accents and fresh green highlights. Adapted from the VS Code Quantum Dark theme for GitHub's interface — more muted layers, better contrast on GitHub's panels, and GitHub-native accent usage while keeping the original quantum vibe.",
+  "author": "calebephrem",
+  "type": "dark",
+
+  "syntaxHighlighting": {
+    "comment": "#ffffff70",
+    "constant": "#ffdd70",
+    "constantNumeric": "#00ddee",
+    "constantBuiltin": "#ffdd70",
+    "keyword": "#86ff72",
+    "keywordControl": "#86ff72",
+    "string": "#aaff4f",
+    "stringRegexp": "#00ddee",
+    "variable": "#c0c0ff",
+    "variableBuiltin": "#39bae6",
+    "functionName": "#3f9fff",
+    "typeName": "#59c2ff",
+    "attribute": "#ffdd70",
+    "tag": "#00aaff",
+    "punctuation": "#8672ff",
+    "markupHeading": "#ffdd70",
+    "markupBold": "#49a2ff",
+    "markupItalic": "#a090ff",
+    "markupLink": "#60f060",
+    "markupCode": "#ffdd70",
+    "diffInserted": "#7fd962",
+    "diffDeleted": "#f26d78",
+    "invalid": "#ff5050"
+  }
+}

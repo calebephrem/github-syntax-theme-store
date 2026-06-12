@@ -1,0 +1,217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GitHub Syntax Themer Schema",
+  "type": "object",
+
+  "required": ["name", "author", "type"],
+
+  "properties": {
+    "$schema": { "type": "string" },
+
+    "name": {
+      "type": "string",
+      "description": "Name of the theme",
+      "minLength": 2
+    },
+
+    "description": {
+      "type": "string",
+      "description": "Optional description",
+      "minLength": 3
+    },
+
+    "author": {
+      "type": "string",
+      "description": "Author of the theme (GitHub username)",
+      "pattern": "^[a-zA-Z0-9-]+$",
+      "minLength": 1
+    },
+
+    "type": {
+      "type": "string",
+      "description": "Type of the theme",
+      "enum": ["light", "dark"]
+    },
+
+    "icon": {
+      "type": "string",
+      "description": "Optional icon URL",
+      "pattern": "^https?:\\/\\/[^\\s]+$"
+    },
+
+    "syntaxHighlighting": {
+      "type": "object",
+      "description": "Syntax highlighting token colours for code views and diffs",
+      "additionalProperties": { "type": "string" },
+      "properties": {
+        "comment": { "type": "string", "description": "Comments (// /* # --)" },
+        "constant": {
+          "type": "string",
+          "description": "Constants and literals (true, false, null, numbers)"
+        },
+        "constantNumeric": {
+          "type": "string",
+          "description": "Numeric literals"
+        },
+        "constantBuiltin": {
+          "type": "string",
+          "description": "Built-in constants (undefined, NaN, Infinity)"
+        },
+        "keyword": {
+          "type": "string",
+          "description": "Language keywords (if, else, return, class, import…)"
+        },
+        "keywordControl": {
+          "type": "string",
+          "description": "Control-flow keywords (for, while, break, continue)"
+        },
+        "keywordOperator": {
+          "type": "string",
+          "description": "Operator keywords (typeof, instanceof, in, of)"
+        },
+        "operator": {
+          "type": "string",
+          "description": "Operators (+, -, =, =>, &&, ||…)"
+        },
+        "string": { "type": "string", "description": "String literals" },
+        "stringRegexp": {
+          "type": "string",
+          "description": "Regular expression literals"
+        },
+        "stringEscape": {
+          "type": "string",
+          "description": "Escape sequences inside strings (\\n, \\t…)"
+        },
+        "stringSpecial": {
+          "type": "string",
+          "description": "Template literals / interpolation delimiters"
+        },
+        "variable": { "type": "string", "description": "Variable identifiers" },
+        "variableParameter": {
+          "type": "string",
+          "description": "Function/method parameters"
+        },
+        "variableBuiltin": {
+          "type": "string",
+          "description": "Built-in variables (this, self, arguments)"
+        },
+        "functionName": {
+          "type": "string",
+          "description": "Function and method names"
+        },
+        "functionCall": {
+          "type": "string",
+          "description": "Function call site"
+        },
+        "functionBuiltin": {
+          "type": "string",
+          "description": "Built-in functions (console.log, print, len…)"
+        },
+        "typeName": {
+          "type": "string",
+          "description": "Type / class / interface names"
+        },
+        "typeBuiltin": {
+          "type": "string",
+          "description": "Built-in types (int, str, bool, void…)"
+        },
+        "typeAnnotation": {
+          "type": "string",
+          "description": "Type annotation syntax (TypeScript : Type, Python hints)"
+        },
+        "namespace": {
+          "type": "string",
+          "description": "Namespace / module / package names"
+        },
+        "attribute": {
+          "type": "string",
+          "description": "HTML/JSX attribute names"
+        },
+        "attributeValue": {
+          "type": "string",
+          "description": "HTML/JSX attribute values"
+        },
+        "tag": { "type": "string", "description": "HTML/XML tag names" },
+        "tagPunctuation": {
+          "type": "string",
+          "description": "Tag angle brackets <>"
+        },
+        "decorator": {
+          "type": "string",
+          "description": "Decorators / annotations (@decorator)"
+        },
+        "punctuation": {
+          "type": "string",
+          "description": "General punctuation ({}, [], (), ;, ,)"
+        },
+        "bracket": {
+          "type": "string",
+          "description": "Matching bracket pairs"
+        },
+        "property": {
+          "type": "string",
+          "description": "Object property / member access names"
+        },
+        "cssProperty": {
+          "type": "string",
+          "description": "CSS property names"
+        },
+        "cssValue": { "type": "string", "description": "CSS property values" },
+        "cssUnit": {
+          "type": "string",
+          "description": "CSS units (px, em, rem, %…)"
+        },
+        "cssSelector": { "type": "string", "description": "CSS selectors" },
+        "cssPseudo": {
+          "type": "string",
+          "description": "CSS pseudo-classes and pseudo-elements"
+        },
+        "markupHeading": {
+          "type": "string",
+          "description": "Markdown heading text"
+        },
+        "markupBold": { "type": "string", "description": "Markdown bold text" },
+        "markupItalic": {
+          "type": "string",
+          "description": "Markdown italic text"
+        },
+        "markupCode": {
+          "type": "string",
+          "description": "Markdown inline code"
+        },
+        "markupLink": { "type": "string", "description": "Markdown link text" },
+        "markupLinkUrl": {
+          "type": "string",
+          "description": "Markdown link URL"
+        },
+        "markupQuote": {
+          "type": "string",
+          "description": "Markdown blockquote text"
+        },
+        "markupList": {
+          "type": "string",
+          "description": "Markdown list punctuation (-, *, numbers)"
+        },
+        "diffInserted": {
+          "type": "string",
+          "description": "Diff added token colour (within a line)"
+        },
+        "diffDeleted": {
+          "type": "string",
+          "description": "Diff removed token colour (within a line)"
+        },
+        "invalid": {
+          "type": "string",
+          "description": "Invalid / illegal syntax"
+        },
+        "deprecated": { "type": "string", "description": "Deprecated symbol" },
+        "meta": {
+          "type": "string",
+          "description": "Meta tokens (shebangs, directives, preprocessor)"
+        }
+      }
+    }
+  },
+
+  "additionalProperties": false
+}

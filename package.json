@@ -1,0 +1,17 @@
+{
+  "name": "github-syntax-theme-store",
+  "version": "1.0.0",
+  "description": "A centralized repository of syntax highlighting themes for the GitHub Syntax Themes browser extension",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebephrem/github-syntax-theme-store.git"
+  },
+  "keywords": [],
+  "author": "Caleb Ephrem (@calebephrem)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calebephrem/github-syntax-theme-store/issues"
+  },
+  "homepage": "https://github.com/calebephrem/github-syntax-theme-store#readme"
+}
