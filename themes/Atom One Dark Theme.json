@@ -1,76 +1,58 @@
 {
   "$schema": "https://raw.githubusercontent.com/calebephrem/github-syntax-theme-store/refs/heads/main/schema.json",
-  "name": "C/C++ Themes",
-  "description": "Port of VSCode's Visual Studio 2019 Dark theme for GitHub syntax highlighting",
+  "name": "Atom One Dark Theme",
+  "description": "A dark syntax highlighting theme inspired by the Atom's One Dark theme",
   "author": "calebephrem",
   "type": "dark",
-  "icon": "https://img.icons8.com/nolan/1200/c-plus-plus-logo.jpg",
+  "icon": "https://img.magnific.com/free-vector/atom-science-education-icon-vector-neon-digital-graphic_53876-114080.jpg?t=st=1781354368~exp=1781357968~hmac=2d41ad62f9462df2c295f081164ad9b4be0762d1ec39752c8ad8b5fe4f0dce8e&w=1480",
   "syntaxHighlighting": {
     "comment": "#5C6370",
-
     "constant": "#D19A66",
     "constantNumeric": "#D19A66",
-    "constantBuiltin": "#56B6C2",
-
+    "constantBuiltin": "#ABB2BF",
     "keyword": "#C678DD",
     "keywordControl": "#C678DD",
     "keywordOperator": "#C678DD",
-
     "operator": "#56B6C2",
-
     "string": "#98C379",
     "stringRegexp": "#56B6C2",
     "stringEscape": "#56B6C2",
     "stringSpecial": "#BE5046",
-
     "variable": "#E06C75",
     "variableParameter": "#ABB2BF",
     "variableBuiltin": "#E06C75",
-
     "functionName": "#61AFEF",
     "functionCall": "#61AFEF",
     "functionBuiltin": "#56B6C2",
-
     "typeName": "#E5C07B",
     "typeBuiltin": "#56B6C2",
     "typeAnnotation": "#ABB2BF",
-
-    "namespace": "#E5C07B",
-
+    "namespace": "#98C379",
     "attribute": "#D19A66",
-    "attributeValue": "#98C379",
-
+    "attributeValue": "#C678DD",
     "tag": "#E06C75",
     "tagPunctuation": "#ABB2BF",
-
-    "decorator": "#C678DD",
-
+    "decorator": "#E5C07B",
     "punctuation": "#ABB2BF",
     "bracket": "#ABB2BF",
-
     "property": "#E06C75",
-
-    "cssProperty": "#ABB2BF",
-    "cssValue": "#D19A66",
+    "cssProperty": "#828997",
+    "cssValue": "#ABB2BF",
     "cssUnit": "#D19A66",
-    "cssSelector": "#E06C75",
+    "cssSelector": "#C678DD",
     "cssPseudo": "#C678DD",
-
     "markupHeading": "#E06C75",
     "markupBold": "#D19A66",
     "markupItalic": "#C678DD",
     "markupCode": "#98C379",
-    "markupLink": "#61AFEF",
-    "markupLinkUrl": "#56B6C2",
+    "markupLink": "#56B6C2",
+    "markupLinkUrl": "#C678DD",
     "markupQuote": "#5C6370",
     "markupList": "#E06C75",
-
     "diffInserted": "#98C379",
     "diffDeleted": "#E06C75",
-
     "invalid": "#E05252",
     "deprecated": "#E0C285",
-
     "meta": "#ABB2BF"
   }
 }

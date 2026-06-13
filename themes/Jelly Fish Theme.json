@@ -1,0 +1,77 @@
+{
+  "$schema": "https://raw.githubusercontent.com/calebephrem/github-syntax-theme-store/refs/heads/main/schema.json",
+  "name": "JellyFish Theme",
+  "description": "Dark neon cyber ocean theme converted from VSCode JellyFish Theme",
+  "author": "calebephrem",
+  "type": "dark",
+  "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAIlCBLonKhAo2iNn--iy0IAeOcqIew8GPZQ&s",
+
+  "syntaxHighlighting": {
+    "comment": "#838383",
+
+    "constant": "#ff7e34",
+    "constantNumeric": "#ff7e34",
+    "constantBuiltin": "#EEFFFF",
+
+    "keyword": "#ff0062",
+    "keywordControl": "#ff006a",
+    "keywordOperator": "#ffffff",
+
+    "operator": "#ffffff",
+
+    "string": "#eeff00",
+    "stringRegexp": "#89DDFF",
+    "stringEscape": "#89DDFF",
+    "stringSpecial": "#fa71ff",
+
+    "variable": "#EEFFFF",
+    "variableParameter": "#ff7e34",
+    "variableBuiltin": "#EEFFFF",
+
+    "functionName": "#00ffff",
+    "functionCall": "#20dd20",
+    "functionBuiltin": "#829fff",
+
+    "typeName": "#FFCB6B",
+    "typeBuiltin": "#EEFFFF",
+    "typeAnnotation": "#82fbff",
+
+    "namespace": "#fd0076",
+
+    "attribute": "#00fff2",
+    "attributeValue": "#FFCB6B",
+
+    "tag": "#ff0077",
+    "tagPunctuation": "#ffffff",
+
+    "decorator": "#82AAFF",
+
+    "punctuation": "#ffffff",
+    "bracket": "#ffffff",
+
+    "property": "#C792EA",
+
+    "cssProperty": "#ffffff",
+    "cssValue": "#ff7e34",
+    "cssUnit": "#ff7e34",
+    "cssSelector": "#FFCB6B",
+    "cssPseudo": "#82AAFF",
+
+    "markupHeading": "#C3E88D",
+    "markupBold": "#f49eff",
+    "markupItalic": "#f07178",
+    "markupCode": "#ff0062",
+    "markupLink": "#ff0062",
+    "markupLinkUrl": "#ff0062",
+    "markupQuote": "#65737E",
+    "markupList": "#EEFFFF",
+
+    "diffInserted": "#C3E88D",
+    "diffDeleted": "#FF5370",
+
+    "invalid": "#FF5370",
+    "deprecated": "#F78C6C",
+
+    "meta": "#65737E"
+  }
+}

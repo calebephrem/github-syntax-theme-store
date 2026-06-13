@@ -3,6 +3,7 @@
   "name": "Winter Is Coming",
   "description": "Cool, crisp dark theme with icy blues and soft highlights for GitHub syntax highlighting",
   "author": "calebephrem",
+  "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWhCbWtrrYsyjYA6JtNBfRe1XzRrZ27XJ8Fg&s",
   "type": "dark",
   "syntaxHighlighting": {
     "comment": "#999999",

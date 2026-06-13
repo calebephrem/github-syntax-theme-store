@@ -1,0 +1,77 @@
+{
+  "$schema": "https://raw.githubusercontent.com/calebephrem/github-syntax-theme-store/refs/heads/main/schema.json",
+  "name": "Palenight Theme",
+  "description": "Palenight dark material-inspired theme converted from VSCode",
+  "author": "calebephrem",
+  "type": "dark",
+  "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzT-dOpGGLZkUrA0nryg4Ga8s-iF1sHrbSag&s",
+
+  "syntaxHighlighting": {
+    "comment": "#697098",
+
+    "constant": "#F78C6C",
+    "constantNumeric": "#F78C6C",
+    "constantBuiltin": "#82AAFF",
+
+    "keyword": "#c792ea",
+    "keywordControl": "#c792ea",
+    "keywordOperator": "#89DDFF",
+
+    "operator": "#89DDFF",
+
+    "string": "#C3E88D",
+    "stringRegexp": "#80CBC4",
+    "stringEscape": "#F78C6C",
+    "stringSpecial": "#c792ea",
+
+    "variable": "#ffcb6b",
+    "variableParameter": "#7986E7",
+    "variableBuiltin": "#bfc7d5",
+
+    "functionName": "#82AAFF",
+    "functionCall": "#82AAFF",
+    "functionBuiltin": "#89DDFF",
+
+    "typeName": "#ffcb6b",
+    "typeBuiltin": "#82AAFF",
+    "typeAnnotation": "#78ccf0",
+
+    "namespace": "#bfc7d5",
+
+    "attribute": "#ffcb6b",
+    "attributeValue": "#C3E88D",
+
+    "tag": "#1972d2",
+    "tagPunctuation": "#0060c0",
+
+    "decorator": "#82AAFF",
+
+    "punctuation": "#bfc7d5",
+    "bracket": "#bfc7d5",
+
+    "property": "#80CBC4",
+
+    "cssProperty": "#80CBC4",
+    "cssValue": "#F78C6C",
+    "cssUnit": "#FFEB95",
+    "cssSelector": "#ff5572",
+    "cssPseudo": "#c792ea",
+
+    "markupHeading": "#82b1ff",
+    "markupBold": "#ffcb6b",
+    "markupItalic": "#c792ea",
+    "markupCode": "#80CBC4",
+    "markupLink": "#ff869a",
+    "markupLinkUrl": "#ff869a",
+    "markupQuote": "#697098",
+    "markupList": "#D9F5DD",
+
+    "diffInserted": "#a9c77d",
+    "diffDeleted": "#EF5350",
+
+    "invalid": "#EF5350",
+    "deprecated": "#F78C6C",
+
+    "meta": "#bfc7d5"
+  }
+}

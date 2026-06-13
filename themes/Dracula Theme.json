@@ -1,9 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/calebephrem/github-syntax-theme-store/refs/heads/main/schema.json",
-  "name": "Dracula",
+  "name": "Dracula Theme",
   "description": "Classic dark theme with vibrant syntax colors adapted for GitHub syntax highlighting",
   "author": "calebephrem",
   "type": "dark",
+  "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJYZxU-NcLsY0iEj3re9Vn48Nwa__m3Jj9bw&s",
   "syntaxHighlighting": {
     "comment": "#6272a4",
     "constant": "#bd93f9",

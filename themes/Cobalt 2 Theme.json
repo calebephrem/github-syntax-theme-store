@@ -1,0 +1,76 @@
+{
+  "$schema": "https://raw.githubusercontent.com/calebephrem/github-syntax-theme-store/refs/heads/main/schema.json",
+  "name": "Cobalt 2 Theme",
+  "description": "Cobalt-inspired neon dark theme for GitHub syntax highlighting",
+  "author": "calebephrem",
+  "type": "dark",
+
+  "syntaxHighlighting": {
+    "comment": "#0088ff",
+
+    "constant": "#ff628c",
+    "constantNumeric": "#ff628c",
+    "constantBuiltin": "#80fcff",
+
+    "keyword": "#ff9d00",
+    "keywordControl": "#ff9d00",
+    "keywordOperator": "#ffc600",
+
+    "operator": "#9effff",
+
+    "string": "#a5ff90",
+    "stringRegexp": "#3ad900",
+    "stringEscape": "#ffee80",
+    "stringSpecial": "#fb94ff",
+
+    "variable": "#e1efff",
+    "variableParameter": "#fb94ff",
+    "variableBuiltin": "#9effff",
+
+    "functionName": "#ffc600",
+    "functionCall": "#ffc600",
+    "functionBuiltin": "#ff9d00",
+
+    "typeName": "#FF68B8",
+    "typeBuiltin": "#80ffbb",
+    "typeAnnotation": "#FF68B8",
+
+    "namespace": "#9effff",
+
+    "attribute": "#9effff",
+    "attributeValue": "#ffee80",
+
+    "tag": "#9effff",
+    "tagPunctuation": "#e1efff",
+
+    "decorator": "#fb94ff",
+
+    "punctuation": "#e1efff",
+    "bracket": "#ffffff",
+
+    "property": "#9effff",
+
+    "cssProperty": "#a5ff90",
+    "cssValue": "#ffee80",
+    "cssUnit": "#ffc600",
+    "cssSelector": "#9EFFFF",
+    "cssPseudo": "#FFB454",
+
+    "markupHeading": "#ffc600",
+    "markupBold": "#9effff",
+    "markupItalic": "#9effff",
+    "markupCode": "#9effff",
+    "markupLink": "#9effff",
+    "markupLinkUrl": "#3ad900",
+    "markupQuote": "#0088ff",
+    "markupList": "#ffc600",
+
+    "diffInserted": "#3ad900",
+    "diffDeleted": "#ff628c",
+
+    "invalid": "#f44542",
+    "deprecated": "#ff7200",
+
+    "meta": "#9effff"
+  }
+}
