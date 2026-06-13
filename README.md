@@ -1,7 +1,7 @@
 <br />
 <div align="center">
 
-  <img src="https://github.com/calebephrem/github-syntax-themes/blob/main/public/icon.png?raw=true" alt="GitHub Syntax Theme Store" width="200" height="200" />
+  <img src="https://github.com/calebephrem/github-syntax-themes/blob/main/public/icon-stroke.png?raw=true" alt="GitHub Syntax Theme Store" width="200" height="200" />
 
   <p align="center" style="margin-top: 12px;">
     <strong><small>GitHub Syntax Themes</small></strong>
@@ -67,6 +67,9 @@ To contribute:
 2. Add your theme JSON file under the `themes/` directory.
 3. Ensure your file matches the schema (`schema.json`).
 4. Submit a pull request.
+
+> [!TIP]
+> Just provide the [schema.json](./schema.json) file along with a VS Code theme file of your choice to an AI agent, and it will generate a fully compatible theme file for you automatically. No manual writing needed ✨
 
 Please include:
 
